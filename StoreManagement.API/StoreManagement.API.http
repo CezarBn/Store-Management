@@ -1,0 +1,11 @@
+@StoreManagement.API_HostAddress = http://localhost:5297
+
+GET {{StoreManagement.API_HostAddress}}/stores/
+Accept: application/json
+
+###
+
+GET {{StoreManagement.API_HostAddress}}/stores/1
+Accept: application/json
+
+###
